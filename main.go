@@ -29,7 +29,6 @@ func main() {
 		fmt.Printf("That's right! %d was the number! \n", hiddenNum)
 		fmt.Printf("It took you %d guesses to get it correctly! \n", amt)
 	}
-
 	var play string
 	fmt.Println("Would you like to play again? Y/N")
 	fmt.Scan(&play)
